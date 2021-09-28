@@ -517,20 +517,57 @@ body {
 } */
 
 @media only screen and (max-width: 600px) {
-  .tarjeta-perfil{
-    width: 100%;
-  }
-  .tarjeta-perfil__img{
-    width: 100%;
+   .tarjeta-perfil{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
   }
   .tarjeta-perfil__informacion{
-    width: 100%;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  .tarjeta-perfil__{
-    width: 100%;
+  .tarjeta-perfil__descripcion{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-
-}
+  .porcentaje-tarjeta{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .articulo-tarjeta{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } 
+   .experiencias-tarjeta{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .proyecto-tarjeta__datos{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } 
+  .contenedor-general{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }  
+} 
 
   
  
