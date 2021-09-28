@@ -409,7 +409,7 @@ body {
     width: 430px;
     margin-bottom: 40px;
   }
-  
+
   .hobbies-tarjeta__img {
     width: inherit;
     height: 240px;
@@ -515,6 +515,22 @@ body {
 .pages-bar-3 {
   grid-area: pages-bar-3;
 } */
+
+@media only screen and (max-width: 600px) {
+  .tarjeta-perfil{
+    width: 100%;
+  }
+  .tarjeta-perfil__img{
+    width: 100%;
+  }
+  .tarjeta-perfil__informacion{
+    width: 100%;
+  }
+  .tarjeta-perfil__{
+    width: 100%;
+  }
+
+}
 
   
  
