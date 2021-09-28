@@ -1,3 +1,3 @@
 # Portafolio
 Maquetado de mi portafolio personal
-<img src="img/cv.jpg">
+<img src="img/mm.jpg">
