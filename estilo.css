@@ -10,8 +10,8 @@ body {
     margin: auto;
     padding: 50px 0;
     grid-gap: 40px;
-    grid-template-columns: repeat(2fr 3fr);
-    grid-template-rows: repeat(7, auto);
+    grid-template-columns:repeat(2fr 3fr);
+    grid-template-rows: repeat(6, auto);
     grid-template-areas:
       "tarjeta-perfil     tarjeta-perfil"
       "porcentaje-tarjeta      articulo-tarjeta"
@@ -435,7 +435,7 @@ body {
     display: none;
   }
 
-  /* .pages-bar-1 */
+.pages-bar-1 
 .pages-bar-1,
 .pages-bar-2 {
   max-width: 400px;
@@ -456,7 +456,7 @@ body {
   margin: 9px;
 }
 
-/* .pages-bar-2 */
+.pages-bar-2 
 .pages-bar-2__text {
   margin-bottom: 20px;
 }
@@ -484,9 +484,9 @@ body {
   color: #ffffff;
   border: 1px solid #6aa2ef;
 }
-/* .pages-bar-3 */
+/* .pages-bar-3 
 
-/* .pages-bar-3 {
+.pages-bar-3 {
   display: flex;
   max-width: 1000px;
   height: auto;
@@ -516,58 +516,48 @@ body {
   grid-area: pages-bar-3;
 } */
 
-@media only screen and (max-width: 600px) {
-   .tarjeta-perfil{
-    display: block;
+@media screen and (max-width: 800px) {
+  .contenedor-general{
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
   }
-  .tarjeta-perfil__informacion{
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .tarjeta-perfil{
+    max-width: 100vh;
   }
-  .tarjeta-perfil__descripcion{
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .porcentaje-tarjeta{
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  body, html{
+    max-width: 100vh;
+    height: 100vh;
   }
   .articulo-tarjeta{
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  } 
-   .experiencias-tarjeta{
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    max-width: 100vh;
+   
   }
-  .proyecto-tarjeta__datos{
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  } 
-  .contenedor-general{
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: auto;
-  }  
-} 
+  .proyecto-tarjeta, .proyecto-tarjeta-2,  .proyecto-tarjeta__img{
+    max-width: 100vh;
+  }
+  .porcentaje-tarjeta, .porcentaje-tarjeta__contenedor{
+    padding-right: 425px;
+    width: 500px;
+    position: relative;
+  }
+  .hobbies-tarjeta, .hobbies-tarjeta__contenedor, .hobbies-tarjeta__hobbie, .hobbies-tarjeta__img{
+    max-width: 100vh;
+    width: 500%;
+  }
+  .pages-bar-2{
+    max-width: 100vh;
+    width: 200%;
+  }
+  .experiencias-tarjeta{
+    width: 100%;
+    max-width: 100vh;
+    padding: 190px;
+  }
+  .experiencias-tarjeta__mi-expe{
+    margin: 0;
+    padding: 0;
+  }
+  }
 
-  
+   
  
