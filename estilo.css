@@ -20,6 +20,7 @@ body {
       "pages-bar-2      pages-bar-2"
       "proyecto-tarjeta-1   proyecto-tarjeta-2"
       "proyecto-tarjeta-3   proyecto-tarjeta-4"
+      "proyecto-tarjeta-5   proyecto-tarjeta-6"
       "pages-bar-3      pages-bar-3";
   }
   
@@ -110,6 +111,12 @@ body {
   
    .proyecto-tarjeta-4 {
     grid-area: proyecto-tarjeta-4;
+  }
+  .proyecto-tarjeta-5 {
+    grid-area: proyecto-tarjeta-5;
+  }
+  .proyecto-tarjeta-6 {
+    grid-area: proyecto-tarjeta-6;
   }
   .proyecto-tarjeta__img {
     width: 490px;
